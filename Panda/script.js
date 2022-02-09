@@ -38,4 +38,14 @@ for (const button of buttons) {
     })
 }
 
+7// 
+document.getElementById('your-email').addEventListener('keyup', function (event) {
+    let submitBtn = document.getElementById('submit');
+    if (event.target.value == 'email') {
+        submitBtn.removeAttribute('disabled')
+    }
+    else {
+        submitBtn.setAttribute('disabled', true)
+    }
+})
 
