@@ -1,6 +1,6 @@
 1//
 console.log('its working');
-2//
+2// 
 const totalh2 = document.getElementsByTagName('h2')
 for (const h2 of totalh2) {
     h2.style.color = 'lightblue'
