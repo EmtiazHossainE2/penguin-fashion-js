@@ -49,5 +49,15 @@ document.getElementById('your-email').addEventListener('keyup', function (event)
     }
 })
 
-8//
+let myImage = document.getElementById('img-change');
+
+myImage.onclick = function () {
+    let mySrc = myImage.getAttribute('src');
+    if (mySrc === 'images/shoes/shoe-2.png') {
+        myImage.setAttribute('src', 'images/shoes/shoe-4.jpg');
+    } else {
+        myImage.setAttribute('src', 'images/shoes/shoe-2.png');
+    }
+}
+
 
